@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        --mode: #a58484
+    }
+
+    .dark {
+        --mode: #000
+    }
+}

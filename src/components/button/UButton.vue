@@ -1,5 +1,5 @@
 <template>
-  <button :type="props.type">
+  <button :type="props.type" class="bg-mode">
     {{props.label}}
   </button>
 </template>
@@ -15,5 +15,5 @@ interface Props {
 const props = withDefaults(defineProps<Props>(), {type: 'button', label: 'Label'});
 </script>
 
-<style scoped>  
+<style scoped>
 </style>

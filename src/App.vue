@@ -3,7 +3,7 @@ import './assets/tailwind.css'
 </script>
 
 <template>
-  <div class="bg-orange-400">
+  <div class="bg-mode">
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
