@@ -1,7 +1,6 @@
-import type { Preview } from "@storybook/vue3";
-import '../src/assets/tailwind.css'
-import {Renderer} from "vue";
-import {withThemeByClassName} from "@storybook/addon-themes";
+import type { Preview } from '@storybook/vue3';
+import '../src/assets/tailwind.css';
+import { withThemeByClassName } from '@storybook/addon-themes';
 
 const preview: Preview = {
   parameters: {
@@ -16,11 +15,11 @@ const preview: Preview = {
     withThemeByClassName({
       themes: {
         light: '',
-        dark: 'dark'
+        dark: 'dark',
       },
-      defaultTheme: 'light'
-    })
-  ]
+      defaultTheme: 'light',
+    }),
+  ],
 };
 
 export default preview;

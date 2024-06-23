@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
-import preset from './tailwind.preset.js'
+import preset from './tailwind.preset.js';
 
 module.exports = {
   darkMode: ['class'],
   safelist: ['dark'],
   prefix: '',
   content: ['./src/**/*.{ts,tsx,vue}'],
-  presets: [preset]
+  presets: [preset],
   // theme: {
   //   container: {
   //     center: true,

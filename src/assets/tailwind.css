@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @layer base {
-    :root {
-        --mode: #a58484
-    }
+  :root {
+    --mode: #a58484;
+  }
 
-    .dark {
-        --mode: #000
-    }
+  .dark {
+    --mode: #000;
+  }
 }
